@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    max-width: 1519px;
+    justify-content: space-between;
+    
+  
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+.container .home-logo span {
+    color: red;
+}
+
+.container .home-logo h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container .main-menu {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-menu .logo img  {
+    width: 16px;
+    height: 16px;
+  
+} 
+
+.main-menu .logo {
+    display: flex;
+    gap: 30px;
+}
+
+.section{
+    background-color: #F0F0F2;
+
+    align-items: center;
+  display: flex;
+  
+  justify-content: center;
+  height: 500px;
+}
+
+main{
+
+}
+.section h1{
+    font-size: 70px;
+}
+
+.main-section{
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    
+}
+
+.left-side{
+    width: 585px;
+    height: 600px;
+    background-color:darkmagenta;
+    padding: 80px 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    place-items: center;
+}
+
+.left-side h1{
+    color: white;
+    margin-bottom: 17px;
+    
+  
+}
+
+.left-side p{
+    color: white;
+ 
+}
+
+.left-side button{
+    margin-top: 28px;
+    width: 214px;
+    height: 58px;
+    background-color: darkmagenta;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.right-side{
+    padding: 80px 70px;
+    flex-direction: column;
+}
+
+.right-side h2{
+    margin-bottom: 80px;
+}
+
+.right-side input{
+    width: 415px;
+    height: 38px;
+    padding: 6px 12px;
+    border: none;
+    border-bottom: 1px solid wheat;
+    margin-bottom: 20px;
+
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.btn button{
+    background-color: transparent;
+    width: 415px;
+    height: 60px;
+    color: blue;
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+}
